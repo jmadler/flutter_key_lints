@@ -1,4 +1,4 @@
-## 0.1.0
+## 1.0.0
 
 Initial release of the flutter_key_lints package.
 
