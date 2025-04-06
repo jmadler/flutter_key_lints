@@ -1,3 +1,10 @@
+## 1.0.1
+
+### Bug Fixes:
+- Fixed overzealous `performance_impact` rule that was triggering on widgets with proper keys
+- Improved widget key detection logic in parent-child relationships
+- Fixed key parameter validation to properly handle custom key utilities
+
 ## 1.0.0
 
 Initial release of the flutter_key_lints package.

@@ -36,7 +36,7 @@ class PerformanceImpactRule extends DartLintRule {
       if (type == null) return;
 
       final String typeName = type.toString();
-      if (_isWidgetType(typeName)) {
+      if (_isWidget(typeName)) {
         widgetCounts[typeName] = (widgetCounts[typeName] ?? 0) + 1;
         treeDepth++; // This is simplified - in reality we'd need to track actual tree depth
 
@@ -60,10 +60,13 @@ class PerformanceImpactRule extends DartLintRule {
           (node.thenStatement as ExpressionStatement).expression);
     }
 
-    // If we found a conditional widget, check if it has a key
+    // If we found a conditional widget, check if it has a key and is a high impact widget
     if (conditionalWidget != null &&
         conditionalWidget is InstanceCreationExpression) {
-      if (!_hasKeyParameter(conditionalWidget)) {
+      final type = conditionalWidget.constructorName.type.type?.toString() ?? '';
+      
+      // Check if this widget or its parent has a key
+      if (!_hasEffectiveKey(conditionalWidget) && _isHighImpactWidget(type)) {
         // This is a conditional widget without key - high performance impact
         final customMessage =
             'Conditional widget lacking key: ${_getImpactMessage("high")}';
@@ -99,7 +102,7 @@ class PerformanceImpactRule extends DartLintRule {
   InstanceCreationExpression? _findWidgetInExpression(Expression expression) {
     if (expression is InstanceCreationExpression) {
       final type = expression.constructorName.type.type;
-      if (type != null && _isWidgetType(type.toString())) {
+      if (type != null && _isWidget(type.toString())) {
         return expression;
       }
     }
@@ -114,31 +117,36 @@ class PerformanceImpactRule extends DartLintRule {
 
     final String typeName = type.toString();
 
+    // Skip checking if widget already has an effective key
+    if (_hasEffectiveKey(node)) {
+      return;
+    }
+
     // Check for performance risk patterns
     String impactLevel = "low";
     String advice = "";
 
     // Assess impact level based on various factors
-    if (_isListWidget(typeName) && !_hasKeyParameter(node)) {
+    if (_isListWidget(typeName)) {
       impactLevel = "critical";
       advice =
           "Missing keys in list items cause complete rebuilds and can lose state";
-    } else if (_isComplexWidget(typeName) && !_hasKeyParameter(node)) {
+    } else if (_isComplexWidget(typeName)) {
       impactLevel = "high";
       advice =
           "Complex widgets benefit significantly from keys for rebuild optimization";
-    } else if (depth > 5 && !_hasKeyParameter(node)) {
+    } else if (depth > 8) {
       impactLevel = "medium";
       advice =
           "Deep widget tree depth increases the cost of unnecessary rebuilds";
-    } else if (widgetCounts[typeName] != null && widgetCounts[typeName]! > 3) {
+    } else if (widgetCounts[typeName] != null && widgetCounts[typeName]! > 5) {
       impactLevel = "medium";
       advice =
           "Multiple instances of the same widget type should use keys for identification";
     }
 
-    // Only report non-low impact issues
-    if (impactLevel != "low") {
+    // Only report high impact issues
+    if (impactLevel == "critical" || impactLevel == "high") {
       reporter.atNode(
         node,
         LintCode(
@@ -167,25 +175,69 @@ class PerformanceImpactRule extends DartLintRule {
 
   /// Check if a widget is list-related (high impact for keys)
   bool _isListWidget(String typeName) {
-    return typeName.contains('ListView') ||
-        typeName.contains('GridView') ||
-        typeName.contains('ListTile');
+    return typeName == 'ListView' ||
+        typeName == 'GridView' ||
+        typeName == 'ListTile' ||
+        typeName.startsWith('ListView.') ||
+        typeName.startsWith('GridView.');
   }
 
   /// Check if a widget is considered complex (would benefit from keys)
   bool _isComplexWidget(String typeName) {
     return typeName.contains('Form') ||
-        typeName.contains('Animated') ||
-        typeName.contains('Sliver') ||
-        typeName.contains('Table');
+        typeName.startsWith('Sliver') ||
+        typeName == 'Table' ||
+        typeName == 'AnimatedSwitcher' ||
+        typeName == 'AnimatedList';
   }
 
-  /// Check if a type is likely a widget
-  bool _isWidgetType(String typeName) {
-    return typeName.contains('Widget') ||
-        typeName.endsWith('View') ||
-        typeName.endsWith('Bar') ||
-        typeName.endsWith('Button');
+  /// Check if a widget is likely to have high performance impact without keys
+  bool _isHighImpactWidget(String typeName) {
+    return _isListWidget(typeName) ||
+        typeName.startsWith('Animated') ||
+        typeName == 'ExpansionTile' ||
+        typeName == 'Dismissible' ||
+        typeName == 'Draggable' ||
+        typeName == 'DragTarget';
+  }
+
+  /// More precise check if a type is a widget
+  bool _isWidget(String typeName) {
+    // Common Flutter widgets that should be checked
+    final widgetTypes = [
+      'ListView', 'GridView', 'Table', 'Column', 'Row',
+      'Stack', 'Wrap', 'Container', 'Card', 'Scaffold',
+      'AnimatedContainer', 'AnimatedSwitcher', 'ExpansionTile',
+      'Draggable', 'Dismissible', 'ReorderableListView',
+    ];
+    
+    // Check if it's a known widget type or clearly a custom widget
+    return typeName.endsWith('Widget') ||
+        widgetTypes.any((widget) => 
+            typeName == widget || 
+            typeName.startsWith('$widget.'));
+  }
+
+  /// Check if a node has an effective key (either direct or via parent)
+  bool _hasEffectiveKey(InstanceCreationExpression node) {
+    // Check direct key parameter
+    if (_hasKeyParameter(node)) {
+      return true;
+    }
+
+    // Additionally check if this widget is wrapped inside a parent with a key
+    final parent = node.parent;
+    if (parent is NamedExpression) {
+      final grandParent = parent.parent;
+      if (grandParent is ArgumentList) {
+        final greatGrandParent = grandParent.parent;
+        if (greatGrandParent is InstanceCreationExpression) {
+          return _hasKeyParameter(greatGrandParent);
+        }
+      }
+    }
+
+    return false;
   }
 
   /// Check if a node has a key parameter
@@ -194,7 +246,11 @@ class PerformanceImpactRule extends DartLintRule {
       if (argument is NamedExpression) {
         final name = argument.name.label.name;
         if (name == 'key') {
-          return true;
+          // Check if key value is not null
+          final value = argument.expression;
+          if (value is! NullLiteral) {
+            return true;
+          }
         }
       }
     }

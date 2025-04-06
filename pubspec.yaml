@@ -1,6 +1,6 @@
 name: flutter_key_lints
 description: "A Flutter custom lint package to enforce proper widget key usage for improved performance, state management, and widget tree reconciliation."
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/jmadler/flutter_key_lints
 issue_tracker: https://github.com/jmadler/flutter_key_lints/issues
 homepage: https://github.com/jmadler/flutter_key_lints

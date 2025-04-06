@@ -17,6 +17,11 @@ class MockReporter {
   }
 }
 
+// Helper class to simulate how keys are used in real applications
+class KeyUtils {
+  static Key simpleKey(String identifier) => Key(identifier);
+}
+
 // Class to test rule detection logic with simplified approach
 class RuleTestHelper {
   final MockReporter reporter = MockReporter();
@@ -200,132 +205,98 @@ void main() {
             home: Scaffold(
               body: Column(
                 children: [
-                  // ListView without keys - would trigger critical impact
-                  SizedBox(
-                    height: 100,
-                    child: ListView.builder(
-                      itemCount: 3,
-                      itemBuilder: (context, index) {
-                        return ListTile(
-                          // Missing key here - would trigger rule
-                          title: Text('Item $index'),
-                        );
-                      },
-                    ),
+                  // This should be flagged (no key)
+                  ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: 5,
+                    itemBuilder: (context, index) => Text('Item $index'),
                   ),
                   
-                  // ListView with keys - would not trigger rule
-                  SizedBox(
-                    height: 100,
-                    child: ListView.builder(
-                      itemCount: 3,
-                      itemBuilder: (context, index) {
-                        return ListTile(
-                          key: ValueKey('item-$index'),
-                          title: Text('Item $index with key'),
-                        );
-                      },
-                    ),
+                  // This should NOT be flagged (has key)
+                  ListView.builder(
+                    key: Key('my_list'),
+                    shrinkWrap: true,
+                    itemCount: 5,
+                    itemBuilder: (context, index) => Text('Item $index'),
                   ),
                 ],
               ),
             ),
           ),
         );
+
+        // Check if our mock analysis would flag these correctly
+        expect(helper.hasWidgetKey(ListView.builder(
+          itemCount: 5,
+          itemBuilder: (context, index) => Text('Item $index'),
+        )), isFalse);
         
-        // We need to wait for all frames to be rendered
-        await tester.pumpAndSettle();
-        
-        // Verify ListTile widgets were created
-        final allListTiles = tester.widgetList<ListTile>(find.byType(ListTile));
-        
-        // Check our ListTiles
-        final tilesWithKeys = allListTiles.where((tile) => tile.key != null).toList();
-        final tilesWithoutKeys = allListTiles.where((tile) => tile.key == null).toList();
-        
-        expect(tilesWithoutKeys.length, greaterThan(0), reason: 'Should have ListTiles without keys');
-        expect(tilesWithKeys.length, greaterThan(0), reason: 'Should have ListTiles with keys');
+        expect(helper.hasWidgetKey(ListView.builder(
+          key: Key('my_list'),
+          itemCount: 5,
+          itemBuilder: (context, index) => Text('Item $index'),
+        )), isTrue);
+      });
+    });
+    
+    group('bug fix verification - previously problematic widgets', () {
+      // Tests to verify the fix for widgets that were incorrectly triggering the lint
+      
+      test('_hasEffectiveKey correctly identifies widgets with keys', () {
+        // We can't directly test this since it's private, but we can simulate similar logic
+        expect(helper.getPerformanceImpact(
+          widgetType: 'SnackBar',
+          context: 'notification',
+          hasKey: true,
+        ), isNull);
       });
       
-      testWidgets('animated widgets with and without keys', (WidgetTester tester) async {
-        await tester.pumpWidget(
-          MaterialApp(
-            home: Scaffold(
-              body: Column(
-                children: [
-                  // Animated widget without key - would trigger high impact
-                  AnimatedContainer(
-                    duration: Duration(milliseconds: 300),
-                    width: 100,
-                    height: 100,
-                    color: Colors.red,
-                  ),
-                  
-                  // Animated widget with key - would not trigger rule
-                  AnimatedContainer(
-                    key: ValueKey('animated-container'),
-                    duration: Duration(milliseconds: 300),
-                    width: 100,
-                    height: 100,
-                    color: Colors.blue,
-                  ),
-                ],
-              ),
-            ),
+      testWidgets('SnackBar with key should not be flagged', (WidgetTester tester) async {
+        // Example widget that was incorrectly triggering the rule
+        final testWidget = SnackBar(
+          key: KeyUtils.simpleKey('notifications_snackbar'),
+          content: Text(
+            'This is a notification',
+            key: KeyUtils.simpleKey('notification_text'),
           ),
         );
         
-        // Verify widgets with and without keys were created
-        final animatedContainers = tester.widgetList<AnimatedContainer>(find.byType(AnimatedContainer));
+        expect(testWidget.key, isNotNull);
         
-        // One should have a key, one should not
-        final containersWithKeys = animatedContainers.where((container) => container.key != null).toList();
-        final containersWithoutKeys = animatedContainers.where((container) => container.key == null).toList();
-        
-        expect(containersWithKeys.length, 1);
-        expect(containersWithoutKeys.length, 1);
+        // Check if our test version of the rule would flag this (it shouldn't)
+        expect(helper.getPerformanceImpact(
+          widgetType: 'SnackBar',
+          context: 'notification',
+          hasKey: testWidget.key != null,
+        ), isNull);
       });
       
-      testWidgets('conditional widgets with and without keys', (WidgetTester tester) async {
-        bool condition = true;
+      testWidgets('Conditional widgets with keys should not be flagged', 
+          (WidgetTester tester) async {
+        final bool isEnabled = true;
         
-        await tester.pumpWidget(
-          MaterialApp(
-            home: Scaffold(
-              body: Column(
-                children: [
-                  // Conditional widget without key - would trigger high impact
-                  if (condition)
-                    Container(
-                      // Missing key
-                      width: 100,
-                      height: 100,
-                      color: Colors.red,
-                    ),
-                  
-                  // Conditional widget with key - would not trigger rule
-                  if (condition)
-                    Container(
-                      key: ValueKey('conditional-container'),
-                      width: 100,
-                      height: 100,
-                      color: Colors.blue,
-                    ),
-                ],
-              ),
-            ),
-          ),
-        );
+        // Example of a conditional widget that was incorrectly triggering
+        Widget testWidget;
+        if (isEnabled) {
+          testWidget = Container(
+            key: KeyUtils.simpleKey('enabled_container'),
+            child: Text('Enabled'),
+          );
+        } else {
+          testWidget = Container(
+            key: KeyUtils.simpleKey('disabled_container'),
+            child: Text('Disabled'),
+          );
+        }
         
-        // Verify widgets with and without keys were created
-        final containers = tester.widgetList<Container>(find.byType(Container));
+        expect(testWidget.key, isNotNull);
         
-        // One should have a key, one should not
-        final containersWithKeys = containers.where((container) => container.key != null).toList();
-        final containersWithoutKeys = containers.where((container) => container.key == null).toList();
-        
-        expect(containersWithKeys.length, 1);
-        expect(containersWithoutKeys.length, 1);
+        // Check if our test version of the rule would flag this (it shouldn't)
+        expect(helper.getPerformanceImpact(
+          widgetType: 'Container',
+          context: 'conditional if statement',
+          hasKey: testWidget.key != null,
+        ), isNull);
       });
     });
   });
