@@ -235,7 +235,7 @@ If you encounter compatibility issues between `custom_lint` and `analyzer` versi
 
 ## License
 
-MIT
+MIT (c) Jordan M. Adler 2025
 
 ## Additional information
 
