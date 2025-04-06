@@ -1,0 +1,30 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  rules:
+    # Basic widget key rule
+    - require_widget_key: true
+      
+    # List item keys rule
+    - list_item_key: true
+      
+    # Appropriate key type rule
+    - appropriate_key_type: true
+      
+    # Animation key rule
+    - animation_key: true
+      
+    # Performance impact analysis rule
+    - performance_impact: true
+      
+    # Example with custom exempt widget configuration
+    # Uncomment to customize which widgets don't need keys
+    # require_widget_key:
+    #   exempt_widgets: 
+    #     - "SizedBox"
+    #     - "Divider"
+    #     - "Padding" 

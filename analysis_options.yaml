@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - example/**
+    - test/**
+
+custom_lint:
+  rules:
+    - require_widget_key: true

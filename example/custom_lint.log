@@ -1,0 +1,1055 @@
+[custom_lint] 2025-04-05T16:13:35.572641 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:13:35.572641     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:13:35.572641                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:13:35.572641
+[custom_lint] 2025-04-05T16:13:35.572641
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:13:35.591181 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:13:35.591181 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:13:35.591181 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:13:35.591181
+[custom_lint] 2025-04-05T16:14:24.068845 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:14:24.068845     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:14:24.068845                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:14:24.068845
+[custom_lint] 2025-04-05T16:14:24.068845
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:14:24.117789 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:14:24.117789 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:14:24.117789 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:14:24.117789
+The Dart VM service is listening on http://127.0.0.1:61242/URXPEKWKzLQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61242/URXPEKWKzLQ=/devtools/?uri=ws://127.0.0.1:61242/URXPEKWKzLQ=/ws
+[custom_lint] 2025-04-05T16:19:02.277539 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:19:02.277539     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:19:02.277539                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:19:02.277539
+[custom_lint] 2025-04-05T16:19:02.277539
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:20:31.886505 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:20:31.886505     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:20:31.886505                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:20:31.886505
+[custom_lint] 2025-04-05T16:20:31.886505
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:20:31.907059 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:20:31.907059 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:20:31.907059 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:20:31.907059
+[custom_lint] 2025-04-05T16:22:12.864230 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:22:12.864230     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:22:12.864230                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:22:12.864230
+[custom_lint] 2025-04-05T16:22:12.864230
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:22:12.941148 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:22:12.941148 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:22:12.941148 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:12.941148
+The Dart VM service is listening on http://127.0.0.1:61633/uv7LE3E6BPA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61633/uv7LE3E6BPA=/devtools/?uri=ws://127.0.0.1:61633/uv7LE3E6BPA=/ws
+[custom_lint] 2025-04-05T16:22:38.101356 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:22:38.101356     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:22:38.101356                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:22:38.101356
+[custom_lint] 2025-04-05T16:22:38.101356
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:22:38.113317 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:22:38.113317 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:22:38.113317 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:22:38.113317
+[custom_lint] 2025-04-05T16:22:41.868980 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:22:41.868980     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:22:41.868980                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:22:41.868980
+[custom_lint] 2025-04-05T16:22:41.868980
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:61677/hnOydKkujY0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61677/hnOydKkujY0=/devtools/?uri=ws://127.0.0.1:61677/hnOydKkujY0=/ws
+[custom_lint] 2025-04-05T16:22:55.752536 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:22:55.752536     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:22:55.752536                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:22:55.752536
+[custom_lint] 2025-04-05T16:22:55.752536
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:23:43.369663 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:23:43.369663     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:23:43.369663                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:23:43.369663
+[custom_lint] 2025-04-05T16:23:43.369663
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:23:43.384696 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:23:43.384696 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:23:43.384696 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:23:43.384696
+[custom_lint] 2025-04-05T16:24:48.301450 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:24:48.301450     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:24:48.301450                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:24:48.301450
+[custom_lint] 2025-04-05T16:24:48.301450
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-05T16:24:48.322011 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-05T16:24:48.322011 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:92:7)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:121:19)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #5      _runServer (package:custom_lint/custom_lint.dart:82:3)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #6      customLint (package:custom_lint/custom_lint.dart:49:5)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:62:3)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.5.7/bin/custom_lint.dart:73:5)
+[custom_lint] 2025-04-05T16:24:48.322011 <asynchronous suspension>
+[custom_lint] 2025-04-05T16:24:48.322011
+The Dart VM service is listening on http://127.0.0.1:62426/c5HTm78Zxrg=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:62426/c5HTm78Zxrg=/devtools/?uri=ws://127.0.0.1:62426/c5HTm78Zxrg=/ws
+[custom_lint] 2025-04-05T16:25:50.136536 lib/custom_lint_client.dart:15:29: Error: Undefined name 'createPlugin'.
+[custom_lint] 2025-04-05T16:25:50.136536     {'key_lints': key_lints.createPlugin,
+[custom_lint] 2025-04-05T16:25:50.136536                             ^^^^^^^^^^^^
+[custom_lint] 2025-04-05T16:25:50.136536
+[custom_lint] 2025-04-05T16:25:50.136536
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:231:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:62571/_aHEAO9IAwo=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:62571/_aHEAO9IAwo=/devtools/?uri=ws://127.0.0.1:62571/_aHEAO9IAwo=/ws
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+UnimplementedError
+at:
+#0      SocketCustomLintServerToClientChannel.setContextRoots (package:custom_lint/src/v2/server_to_client_channel.dart:148:5)
+#1      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:340:35)
+#2      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:15)
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:18:22)
+#4      CustomLintServer._handleAnalysisSetContextRoots (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:325:15)
+#5      RequestX.when (package:custom_lint/src/request_extension.dart:136:47)
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:36)
+#7      _rootRunUnary (dart:async/zone.dart:1538:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#9      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#10     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#11     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#12     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:154:11)
+#13     _MapStream._handleData (dart:async/stream_pipe.dart:252:10)
+#14     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:184:13)
+#15     _rootRunUnary (dart:async/zone.dart:1538:47)
+#16     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#17     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#18     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#19     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#20     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:154:11)
+#21     _MapStream._handleData (dart:async/stream_pipe.dart:252:10)
+#22     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:184:13)
+#23     _rootRunUnary (dart:async/zone.dart:1538:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#28     _SyncBroadcastStreamController._sendData (dart:async/broadcast_stream_controller.dart:389:25)
+#29     _BroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:257:5)
+#30     _AsBroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:492:11)
+#31     _rootRunUnary (dart:async/zone.dart:1546:13)
+#32     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#33     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#34     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#35     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#36     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:798:19)
+#37     _StreamController._add (dart:async/stream_controller.dart:663:7)
+#38     _StreamController.add (dart:async/stream_controller.dart:618:5)
+#39     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+
+The Dart VM service is listening on http://127.0.0.1:54417/4LxnalLz4UE=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54417/4LxnalLz4UE=/devtools/?uri=ws://127.0.0.1:54417/4LxnalLz4UE=/ws
+[IgnoreCode] 2025-04-06T01:11:11.188210 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.188210 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.188210
+[IgnoreCode] 2025-04-06T01:11:11.188210 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.188210 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.188210
+[IgnoreCode] 2025-04-06T01:11:11.193842 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.193842 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.193842
+[IgnoreCode] 2025-04-06T01:11:11.193842 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.193842 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.193842
+[IgnoreCode] 2025-04-06T01:11:11.194402 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.194402 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.194402
+[IgnoreCode] 2025-04-06T01:11:11.194402 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.194402 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.194402
+[IgnoreCode] 2025-04-06T01:11:11.194547 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.194547 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.194547
+[IgnoreCode] 2025-04-06T01:11:11.194547 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.194547 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.194547
+[IgnoreCode] 2025-04-06T01:11:11.194700 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.194700 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.194700
+[IgnoreCode] 2025-04-06T01:11:11.194700 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.194700 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.194700
+[IgnoreCode] 2025-04-06T01:11:11.194829 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.194829 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.194829
+[IgnoreCode] 2025-04-06T01:11:11.194829 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.194829 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.194829
+[IgnoreCode] 2025-04-06T01:11:11.194961 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.194961 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.194961
+[IgnoreCode] 2025-04-06T01:11:11.194961 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.194961 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.194961
+[IgnoreCode] 2025-04-06T01:11:11.195103 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.195103 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.195103
+[IgnoreCode] 2025-04-06T01:11:11.195103 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.195103 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.195103
+[IgnoreCode] 2025-04-06T01:11:11.195217 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.195217 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.195217
+[IgnoreCode] 2025-04-06T01:11:11.195217 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.195217 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.195217
+[IgnoreCode] 2025-04-06T01:11:11.195672 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.195672 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.195672
+[IgnoreCode] 2025-04-06T01:11:11.195672 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.195672 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.195672
+[IgnoreCode] 2025-04-06T01:11:11.196225 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.196225 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.196225
+[IgnoreCode] 2025-04-06T01:11:11.196225 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.196225 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.196225
+[IgnoreCode] 2025-04-06T01:11:11.196570 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.196570 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.196570
+[IgnoreCode] 2025-04-06T01:11:11.196570 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.196570 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.196570
+[IgnoreCode] 2025-04-06T01:11:11.196950 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.196950 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.196950
+[IgnoreCode] 2025-04-06T01:11:11.196950 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.196950 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.196950
+[IgnoreCode] 2025-04-06T01:11:11.197102 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197102 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197102
+[IgnoreCode] 2025-04-06T01:11:11.197102 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197102 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197102
+[IgnoreCode] 2025-04-06T01:11:11.197354 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197354 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197354
+[IgnoreCode] 2025-04-06T01:11:11.197354 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197354 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197354
+[IgnoreCode] 2025-04-06T01:11:11.197508 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197508 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197508
+[IgnoreCode] 2025-04-06T01:11:11.197508 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197508 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197508
+[IgnoreCode] 2025-04-06T01:11:11.197636 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197636 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197636
+[IgnoreCode] 2025-04-06T01:11:11.197636 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197636 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197636
+[IgnoreCode] 2025-04-06T01:11:11.197771 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197771 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197771
+[IgnoreCode] 2025-04-06T01:11:11.197771 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197771 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197771
+[IgnoreCode] 2025-04-06T01:11:11.197888 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.197888 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.197888
+[IgnoreCode] 2025-04-06T01:11:11.197888 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.197888 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.197888
+[IgnoreCode] 2025-04-06T01:11:11.198509 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.198509 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.198509
+[IgnoreCode] 2025-04-06T01:11:11.198509 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.198509 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.198509
+[IgnoreCode] 2025-04-06T01:11:11.198979 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.198979 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.198979
+[IgnoreCode] 2025-04-06T01:11:11.198979 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.198979 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.198979
+[IgnoreCode] 2025-04-06T01:11:11.199620 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.199620 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.199620
+[IgnoreCode] 2025-04-06T01:11:11.199620 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.199620 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.199620
+[IgnoreCode] 2025-04-06T01:11:11.200980 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.200980 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.200980
+[IgnoreCode] 2025-04-06T01:11:11.200980 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.200980 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.200980
+[IgnoreCode] 2025-04-06T01:11:11.201185 Plugin IgnoreCode threw while analyzing /Users/adler/code/key_lints/example/main.dart:
+[IgnoreCode] 2025-04-06T01:11:11.201185 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[IgnoreCode] 2025-04-06T01:11:11.201185
+[IgnoreCode] 2025-04-06T01:11:11.201185 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:58:7)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:133:5)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #4      _ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:135:35)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #5      new Future.<anonymous closure> (dart:async/future.dart:260:40)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #6      _rootRun (dart:async/zone.dart:1517:47)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #7      _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #8      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #10     _rootRun (dart:async/zone.dart:1525:13)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #11     _CustomZone.run (dart:async/zone.dart:1422:19)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:410:19)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
+[IgnoreCode] 2025-04-06T01:11:11.201185 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
+[IgnoreCode] 2025-04-06T01:11:11.201185
+[custom_lint] 2025-04-06T01:13:28.701117 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:76:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:28.701117  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:28.701117 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:28.701117         reporter.reportErrorForNode(code, node);
+[custom_lint] 2025-04-06T01:13:28.701117                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:28.701117 /Users/adler/code/key_lints/lib/src/rules/list_item_key_rule.dart:77:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:28.701117  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:28.701117 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:28.701117         reporter.reportErrorForNode(code, expression);
+[custom_lint] 2025-04-06T01:13:28.701117                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:28.701117 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:37:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:28.701117  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:28.701117 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:28.701117             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:28.701117                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:28.701117 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:50:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:28.701117  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:28.701117 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:28.701117             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:28.701117                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:28.701117 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:65:20: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:28.701117  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:28.701117 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:28.701117           reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:28.701117                    ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:28.701117
+[custom_lint] 2025-04-06T01:13:28.701117
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-06T01:13:53.276178 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:76:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:53.276178  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:53.276178 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:53.276178         reporter.reportErrorForNode(code, node);
+[custom_lint] 2025-04-06T01:13:53.276178                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:53.276178 /Users/adler/code/key_lints/lib/src/rules/list_item_key_rule.dart:77:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:53.276178  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:53.276178 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:53.276178         reporter.reportErrorForNode(code, expression);
+[custom_lint] 2025-04-06T01:13:53.276178                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:53.276178 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:37:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:53.276178  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:53.276178 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:53.276178             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:53.276178                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:53.276178 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:50:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:53.276178  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:53.276178 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:53.276178             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:53.276178                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:53.276178 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:65:20: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:53.276178  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:53.276178 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:53.276178           reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:53.276178                    ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:53.276178
+[custom_lint] 2025-04-06T01:13:53.276178
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-06T01:13:57.441544 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:76:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:57.441544  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:57.441544 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:57.441544         reporter.reportErrorForNode(code, node);
+[custom_lint] 2025-04-06T01:13:57.441544                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:57.441544 /Users/adler/code/key_lints/lib/src/rules/list_item_key_rule.dart:77:18: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:57.441544  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:57.441544 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:57.441544         reporter.reportErrorForNode(code, expression);
+[custom_lint] 2025-04-06T01:13:57.441544                  ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:57.441544 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:37:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:57.441544  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:57.441544 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:57.441544             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:57.441544                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:57.441544 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:50:22: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:57.441544  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:57.441544 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:57.441544             reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:57.441544                      ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:57.441544 /Users/adler/code/key_lints/lib/src/rules/appropriate_key_type_rule.dart:65:20: Error: The method 'reportErrorForNode' isn't defined for the class 'ErrorReporter'.
+[custom_lint] 2025-04-06T01:13:57.441544  - 'ErrorReporter' is from 'package:analyzer/error/listener.dart' ('/Users/adler/.pub-cache/hosted/pub.dev/analyzer-7.3.0/lib/error/listener.dart').
+[custom_lint] 2025-04-06T01:13:57.441544 Try correcting the name to the name of an existing method, or defining a method named 'reportErrorForNode'.
+[custom_lint] 2025-04-06T01:13:57.441544           reporter.reportErrorForNode(
+[custom_lint] 2025-04-06T01:13:57.441544                    ^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:13:57.441544
+[custom_lint] 2025-04-06T01:13:57.441544
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-06T01:13:57.917645 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:623:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-04-06T01:13:57.917645 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:82:3)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #7      entrypoint (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.7.5/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645 #8      main (file:///Users/adler/.pub-cache/hosted/pub.dev/custom_lint-0.7.5/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-04-06T01:13:57.917645 <asynchronous suspension>
+[custom_lint] 2025-04-06T01:13:57.917645
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:36:9: Error: Type 'LintSeverity' not found.
+[custom_lint] 2025-04-06T01:25:09.805625   final LintSeverity severity;
+[custom_lint] 2025-04-06T01:25:09.805625         ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:62:10: Error: Type 'LintSeverity' not found.
+[custom_lint] 2025-04-06T01:25:09.805625   static LintSeverity? _severityFromString(String? severity) {
+[custom_lint] 2025-04-06T01:25:09.805625          ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:41:21: Error: Undefined name 'LintSeverity'.
+[custom_lint] 2025-04-06T01:25:09.805625     this.severity = LintSeverity.info,
+[custom_lint] 2025-04-06T01:25:09.805625                     ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:43:23: Error: 'LintCode' is imported from both 'package:analyzer/src/dart/error/lint_codes.dart' and 'package:custom_lint_core/src/lint_codes.dart'.
+[custom_lint] 2025-04-06T01:25:09.805625           code: const LintCode(
+[custom_lint] 2025-04-06T01:25:09.805625                       ^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:36:9: Error: 'LintSeverity' isn't a type.
+[custom_lint] 2025-04-06T01:25:09.805625   final LintSeverity severity;
+[custom_lint] 2025-04-06T01:25:09.805625         ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:58:69: Error: Undefined name 'LintSeverity'.
+[custom_lint] 2025-04-06T01:25:09.805625       severity: _severityFromString(json['severity'] as String?) ?? LintSeverity.info,
+[custom_lint] 2025-04-06T01:25:09.805625                                                                     ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:65:16: Error: Undefined name 'LintSeverity'.
+[custom_lint] 2025-04-06T01:25:09.805625         return LintSeverity.error;
+[custom_lint] 2025-04-06T01:25:09.805625                ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:67:16: Error: Undefined name 'LintSeverity'.
+[custom_lint] 2025-04-06T01:25:09.805625         return LintSeverity.warning;
+[custom_lint] 2025-04-06T01:25:09.805625                ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:69:16: Error: Undefined name 'LintSeverity'.
+[custom_lint] 2025-04-06T01:25:09.805625         return LintSeverity.info;
+[custom_lint] 2025-04-06T01:25:09.805625                ^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:25:09.805625
+[custom_lint] 2025-04-06T01:25:09.805625
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-06T01:28:02.834308 /Users/adler/code/key_lints/lib/key_lints.dart:29:32: Error: No named parameter with the name 'severity'.
+[custom_lint] 2025-04-06T01:28:02.834308     const RequireWidgetKeyRule(severity: null),
+[custom_lint] 2025-04-06T01:28:02.834308                                ^^^^^^^^
+[custom_lint] 2025-04-06T01:28:02.834308 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:35:9: Context: Found this candidate, but the arguments don't match.
+[custom_lint] 2025-04-06T01:28:02.834308   const RequireWidgetKeyRule({
+[custom_lint] 2025-04-06T01:28:02.834308         ^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:28:02.834308
+[custom_lint] 2025-04-06T01:28:02.834308
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-04-06T01:32:53.363853 /Users/adler/code/key_lints/lib/key_lints.dart:29:32: Error: No named parameter with the name 'severity'.
+[custom_lint] 2025-04-06T01:32:53.363853     const RequireWidgetKeyRule(severity: null),
+[custom_lint] 2025-04-06T01:32:53.363853                                ^^^^^^^^
+[custom_lint] 2025-04-06T01:32:53.363853 /Users/adler/code/key_lints/lib/src/rules/require_widget_key_rule.dart:35:9: Context: Found this candidate, but the arguments don't match.
+[custom_lint] 2025-04-06T01:32:53.363853   const RequireWidgetKeyRule({
+[custom_lint] 2025-04-06T01:32:53.363853         ^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2025-04-06T01:32:53.363853
+[custom_lint] 2025-04-06T01:32:53.363853
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:623:5)
+<asynchronous suspension>
+

@@ -1,0 +1,23 @@
+name: flutter_key_lints_example
+description: Example project for flutter_key_lints package
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  custom_lint: "^0.7.5"
+  flutter_key_lints:
+    path: ../
+
+flutter:
+  uses-material-design: true 
